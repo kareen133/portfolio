@@ -1,0 +1,24 @@
+button{
+    
+    margin: 1rem;
+}
+
+.a h1{
+   
+    font-size:clamp(4rem, 7vw,6rem);
+}
+.a span{
+    background: linear-gradient(rgb(208, 168, 246), rgb(252, 147, 238));
+    background-clip: text; /* Standard syntax for modern browsers */
+    color: transparent; 
+}
+.header{
+    padding: 1rem;
+}
+.center{
+    text-align: center;
+    margin-top: 5%;
+}
+.tech{
+    margin-top: 5%;
+}

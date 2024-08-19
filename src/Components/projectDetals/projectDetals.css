@@ -1,0 +1,41 @@
+.mylink {
+    display: flex;
+   gap: 2rem;
+}
+   .mylink a{
+    color: black;
+    text-decoration: none;
+   }
+   .mylink a:hover{
+    color:  rgb(142, 70, 209);
+   text-decoration: underline;
+   }
+.des{
+   
+    padding: 2rem;
+}
+h1,h4{
+    font-size:clamp(1rem, 5vw, 1.5rem);
+  
+}
+p{
+    font-size:clamp(0.5rem, 5vw, 1rem);
+}
+
+.desImg{
+ 
+   padding: 1em;
+   border-radius: 50px;
+   /*margin-top: 3%;*/
+}
+ul{
+    font-size:clamp(0.5rem, 5vw, 0.9rem);
+    list-style:square;
+    color: rgb(71, 71, 71);
+}
+.project-details{
+    background-color: white;
+border: 3px solid black;
+margin :3%;
+border-radius: 20px;
+}
